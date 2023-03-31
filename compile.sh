@@ -10,7 +10,7 @@ DBGCFLAGS="${CFLAGS} ${DBG}"
 
 rm -f *.exe *.dbg
 
-gcc ${OPTCFLAGS} main.c -lgmp -o primelist.exe
-gcc ${DBGCFLAGS} main.c -lgmp -o primelist.dbg
+gcc ${OPTCFLAGS} simple.c -lgmp -o simple.exe
+gcc ${DBGCFLAGS} simple.c -lgmp -o simple.dbg
 
 strip *.exe

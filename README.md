@@ -22,3 +22,8 @@ Note: You must have libgmp development package installed
 START_P=500 ./simple.exe
 START_P=500 ./simple.exe 100
 ```
+
+## Use a thread to print prime numbers
+```
+./threaded.exe
+```

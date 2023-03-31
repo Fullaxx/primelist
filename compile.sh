@@ -11,10 +11,10 @@ DBGCFLAGS="${CFLAGS} ${DBG}"
 
 rm -f *.exe *.dbg
 
-gcc ${OPTCFLAGS} simple.c -lgmp -o simple.exe
-gcc ${DBGCFLAGS} simple.c -lgmp -o simple.dbg
+gcc ${OPTCFLAGS} simple_list.c -lgmp -o simple_list.exe
+gcc ${DBGCFLAGS} simple_list.c -lgmp -o simple_list.dbg
 
-gcc ${OPTCFLAGS} threaded.c -lgmp -o threaded.exe
-gcc ${DBGCFLAGS} threaded.c -lgmp -o threaded.dbg
+gcc ${OPTCFLAGS} threaded_list.c -lgmp -o threaded_list.exe
+gcc ${DBGCFLAGS} threaded_list.c -lgmp -o threaded_list.dbg
 
 strip *.exe

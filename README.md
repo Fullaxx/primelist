@@ -9,21 +9,21 @@ Note: You must have libgmp development package installed
 
 ## Print prime numbers forever
 ```
-./simple.exe
+./simple_list.exe
 ```
 
 ## Print the first 100 prime numbers
 ```
-./simple.exe 100
+./simple_list.exe 100
 ```
 
 ## Print prime numbers greater than 500
 ```
-START_P=500 ./simple.exe
-START_P=500 ./simple.exe 100
+START_P=500 ./simple_list.exe
+START_P=500 ./simple_list.exe 100
 ```
 
 ## Use a thread to print prime numbers
 ```
-./threaded.exe
+./threaded_list.exe
 ```
